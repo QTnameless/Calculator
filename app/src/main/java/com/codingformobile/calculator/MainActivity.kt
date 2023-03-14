@@ -77,13 +77,13 @@ class MainActivity : AppCompatActivity() {
     private fun addToInputText(buttonValue: String): String {
         return "${input.text}$buttonValue"
     }
-/*
+
     private fun getInputExpression(): String {
         var expression = input.text.replace(Regex("÷"), "/")
         expression = expression.replace(Regex("×"), "*")
         return expression
     }
-
+/*
     private fun showResult() {
         try {
             val expression = getInputExpression()
