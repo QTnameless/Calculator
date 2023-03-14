@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         expression = expression.replace(Regex("×"), "*")
         return expression
     }
-/*
+
     private fun showResult() {
         try {
             val expression = getInputExpression()
@@ -105,4 +105,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
- */
+ 
